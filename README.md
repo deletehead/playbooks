@@ -36,9 +36,14 @@ This is focused more on home networks and personal devices/accounts, not enterpr
 ## Suspected Malware
 - [ ] Update AV software and kick off an AV scan, clean any identified files
 - [ ] For any identified malware, do quick research to identify the typical behavior of the malware
+- [ ] Windows:
+  - Consider PoSH-R2: https://github.com/WiredPulse/PoSh-R2 or
+  - Loki: https://github.com/Neo23x0/Loki
+- [ ] macOS:
+  - Check out: https://www.sentinelone.com/blog/macos-threat-hunting-incident-response-ebook-intro-by-alex-burinskiy/
 - [ ] Check version/patch level of device
-- [ ] Close all applications
 - [ ] Get process listing (`Get-Process` or `ps -ef`) and identify any strange/rogue processes
+- [ ] Close all applications
 - [ ] Get list of network connections (`netstat`), with associated process (`-antup`)
 - [ ] Check downloads folder for suspicious files
 - [ ] Consider wiping & reloading the OS to get to a known good hardware/software state
