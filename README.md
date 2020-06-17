@@ -9,6 +9,7 @@ This is focused more on home networks and personal devices/accounts, not enterpr
 - [ ] Recommend the user sets up a password manager and gets into the habit of using it (+ reset creds)
 - [ ] Recommend the user configures 2FA across all supporting applications. Discuss with them which accounts are important so they can make a risk-based decision on which ones to leave out if they like
 - [ ] Consider a system restore with a fresh OS, scan the to-be-restored files first to ensure they aren't infected
+- [ ] Check other devices on the SOHO for suspicious activity
 
 ## Compromised Email Account
 - [ ] Change password immediately
